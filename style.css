@@ -34,6 +34,16 @@ img {
   max-width: 100%;
 }
 
+spotlightimg {
+	position: relative;
+    float: left;
+    height: 300px;
+	width: 400px;
+	overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
 hr {
   border-top: 1px solid #ccc;
   border-bottom: none;
