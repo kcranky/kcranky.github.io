@@ -1,63 +1,68 @@
-# Responsive Resume
+# [Start Bootstrap - Freelancer](https://startbootstrap.com/template-overviews/freelancer/)
 
-##Introduction
-This is a simple template to help you create a mobile first responsive resume.
-Feel free to download and use to suit your needs. No attribution is required, though I would love to see what you make!
-If you have any questions feel free to contact me via twitter <a href="http://www.twitter.com/philipcdavis">@philipcdavis<a>.
-if you notice anything that is broken or that could be improved you can <a href="https://github.com/philipcdavis/responsive-resume/issues">open an issue</a>.
+[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid, window modals for each portfolio item, and a working PHP contact form.
 
+## Preview
 
+[![Freelancer Preview](https://startbootstrap.com/assets/img/screenshots/themes/freelancer.png)](https://blackrockdigital.github.io/startbootstrap-freelancer/)
 
-##Setup Instructions
-####Step 1: Download and Extract
-<a href="https://github.com/philipcdavis/responsive-resume/archive/master.zip">Download</a> and extract the template and put it in whatever folder you want.
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-freelancer/)**
 
-####Step 2: Import a headshot
-Once you have a picture you want to use import it into the `/img` folder and override the `background.jpg` file.
-This image is set as the background image of the `header` in style.css, use a high quality photo with padding on all sides for best results.
+## Status
 
-####Step 3: Edit the index.html file
-Using your favorite text editor open your index.html file to fill out content, update your name, skills, and information.
-Feel free to remove or rearrange the content blocks to fit your needs.
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-freelancer/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-freelancer.svg)](https://www.npmjs.com/package/startbootstrap-freelancer)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-freelancer.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-freelancer)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer?type=dev)
 
-####Step 4: Host your site
-<a href="https://pages.github.com/">Github pages</a> allows your to host for free and there is plenty of documentation on how to get set up.
+## Download and Installation
 
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/freelancer/)
+* Install via npm: `npm i startbootstrap-freelancer`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-freelancer.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-freelancer)
 
+## Usage
 
-##Grid
-The 6 column mobile first grid is used by wrapping each row with the `.row` class.
-Each row should have grid units that add up to 6 (with the exception of the Gallery).
-You can view the grid with its classes on the <a href="http://philipcdavis.com/responsive-resume/">homepage</a>.
+### Basic Usage
 
-##Custom Blocks
-This template comes with multiple componants that can be removed or rearranged to suit your particular needs.
-These are build on top of the grid, but container some useful layouts that you can use depending on your situation.
-Each block is contained by the `<section>` tags. With some blocks it is helpful to include a seperating `<hr>` tag.
-Below you will find information for each block. If you notice anything that should be improved please <a href="https://github.com/philipcdavis/responsive-resume/issues">open an issue</a>.
+After downloading, simply edit the HTML and CSS files included with the template in a code editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-####Gallery
-The Gallery is useful for displaying a grid of images. It is similar to the normal grid with two exceptions.
+### Advanced Usage
 
-1. Each grid item has a top and bottom margin.
-2. The `.grid-2` and `.grid-3` classes have a default two column layout instead of normal one column layout.
+After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-For the gallery you can wrap everything inside a `.row` class.
+#### Gulp Tasks
 
-####Testimonials
-This section is great for highlighting some things other people have said about you.
-These images have a fixed height in order to keep everything aligned.
+- `gulp` the default task that builds everything
+- `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
+- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
+- `gulp js` minifies the themes JS file
+- `gulp vendor` copies dependencies from node_modules to the vendor directory
 
-####Spotlight
-The Spotlight section is useful for highlighting one project or accomplishment.
-In order to keep the themeing consistant with the project you are able to edit the `.spotlight` classes in style.css.
-The image you use for an icon can be transparent, it will be centered and restricted within the `.grid-3` class.
-It's important that this block is outside of the container so that the bar can extend the full width of the screen.
+You must have npm and Gulp installed globally in order to use these features.
 
-####Education
-This section is fairly self explanatory.
-You want to watch out for word-wrap issues that cause text to look awkward, if you need more room you can change the `<h2>` tag to a `<h3>`.
+## Bugs and Issues
 
-####Experiance
-This is a great section to bring some of the more formal resume elements onto the web.
-All the jobs are seperated by a bottom-border with the exception of the last one.
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
+
+## About
+
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
+
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
